@@ -6,8 +6,8 @@ mongoose.Promise = global.Promise;
 const app = express();
 
 app.set("view engine", "ejs");
-app.use(express.urlencoded({ extended: false })); // Con este ejecutamos el enrutador
-app.use(personsRoutes);
+app.use(express.urlencoded({ extended: false }));
+app.use(personsRoutes); // Ejecutamos el enrutador
 
 mongoose.connect(
   `mongodb+srv://Admin:admin@cluster0.esdny.mongodb.net/?retryWrites=true&w=majority`,

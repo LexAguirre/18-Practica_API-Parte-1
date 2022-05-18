@@ -1,6 +1,6 @@
 ![Logo](img/ucol-logo.jpg)
 
-# Práctica 18: Servido para RESTFUL API
+# Práctica 18: API Parte 1
 
 > Segunda Parcial
 
@@ -13,11 +13,13 @@
 
 ## OBJETIVO
 
-![HTTP](img/HTTP.jpg)
+![HTTP](img/textMongo.jpg)
 
 En las prácticas anteriores hemos abordado tópicos que nos van a ayudar a construir nuestra RESTFUL API conectada a una fuente de datos de MongoDB. Para dar paso a este nuevo proyecto será necesario comenzar desde cero, tener un proyecto nuevo, debido a que la organización de los directorios y archivos es clave para el posterior mantenimiento de nuestros servicios.
 
-> ENTREGA: VIERNES 13 DE MAYO DEL 2022
+En esta práctica, utilizaremos una parte del código de la práctica 16 y práctica 17.
+
+> ENTREGA: VIERNES 20 DE MAYO DEL 2022
 
 ## EXPLICACIÓN DEL PROCESO
 
