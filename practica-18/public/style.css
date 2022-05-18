@@ -1,0 +1,10 @@
+h1 {
+  color: red;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: blue;
+}
+
+/* con color se cambia el color del texto que se coloque si tipo como h1 y body  */
