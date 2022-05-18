@@ -27,29 +27,43 @@ En esta práctica, utilizaremos una parte del código de la práctica 16 y prác
 
 2. Inicializa NPM con npm init -y
 
-3. Instala los paquete express con npm i express y nodemon con npm install -g nodemon
+3. Instala el paquete “express” desde la línea de comando
 
-4. Instala el paquete 'ejs' con el comando npm i express --save o npm i ejs
+4. Instala el paquete “ejs” desde la línea de comando (npm i ejs)
 
-5. Crea un nuevo archivo server.js
+5. Instala el paquete “nodemon” desde la línea de comando (npm i nodemon)
 
-6. Crea una nueva carpeta llamada "public" dentro de la carpeta "practica_15"
+6. Instala el paquete “mongoose” desde la línea de comando (npm i mongoose)
 
-7. Dentro de la carpeta "public" crea un nuevo archivo style.css
+7. Crea una carpeta llamada “public” 8. Crea una carpeta llamada “models”
 
-8. Dentro del archivo style.css se le escribira body y dentro de este tendra un front-family : 'Roboto Condensed', sans-serif ademas se definira el color del texto como azul y en el h1 como rojo;
+8. Crea una carpeta llamada “views”
 
-9. Se crea la carpeta src donde se ingresara el archivo server.js
+9. Crea una carpeta llamada “routes”
 
-10. Dentro de la carpeta src se creara una carpeta routes en la cual se creara el archivo person.js
+10. En la raiz se crea un archivo server.js
 
-11. En el archivo “person.js” escribiremos nuestra primera ruta, para el método get, en este caso enviaremos solo un mensaje
+11. Dentro de la carpeta routes se creara un archivo person.js
 
-12. En el server.js se eliminara todas las rutas que teniamos anteriormente y se cololoca una ruta para que pueda ejecutar el codigo del archivo person.js.
+12. Dentro de la carpeta models se creara un archivo person.js
 
-13. Instala postman con npm i postman agent
+13. En el archivo person.js escribiremos nuestra primera ruta, para el método get, en este caso enviaremos solo un mensaje
 
-14. Ahora se ejecuta el comando "npx nodemon server en el postman y acccede a http://localhost:3000/person
+14. En el archivo person.js de models se inyecta la dependencia de mongoose, se instancia un nuevo Schema de Mongoose y se imposta una instancia de un modelo de mongoose.
+
+15. En el archivo person.js de routes se crea un get en el cual recuperamos todos los documentos que estan en el mongodb contenidos en la coleccion y se regresan al html como un objeto json para eso se ocupa:
+
+16. Inyectar express,generar una instancia, inyectar una depencdencia de mongoose y inyectar una dependencia para el model de person
+
+17. Se exporta el router
+
+18. En el archivo server.js se crea una dependencia para mongoose,express,personsRoutes
+
+19. Se genera una app para mongoose para settear un valor y retomas el codigo realizado en server.js de la practica 16 y 17
+
+20. En mongodb se crea un documento para que se pueda mandar llamar un objeto json
+
+21. Ahora se ejecuta el comando "npx nodemon server" y acccede a http://localhost:3000/person
 
 ## RECURSOS
 
